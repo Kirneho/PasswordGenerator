@@ -16,11 +16,8 @@ password_letters = random.choices(letters, weights=None, k = nr_letters)
 password_symbols = random.choices(symbols, weights=None, k = nr_symbols)
 password_numbers = random.choices(numbers, weights=None, k = nr_numbers)
 
+password_list = password_letters + password_symbols + password_numbers
+
 separator = ''
-password_letters = separator.join(password_letters)
-password_symbols = separator.join(password_symbols)
-password_numbers = separator.join(password_numbers)
-password = password_letters + password_numbers + password_symbols
+password = separator.join(password_list)
 print(password)
-#Hard Level - Order of characters randomised:
-#e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
