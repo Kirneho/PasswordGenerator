@@ -17,7 +17,7 @@ password_symbols = random.choices(symbols, weights=None, k = nr_symbols)
 password_numbers = random.choices(numbers, weights=None, k = nr_numbers)
 
 password_list = password_letters + password_symbols + password_numbers
-
+random.shuffle(password_list)
 separator = ''
 password = separator.join(password_list)
 print(password)
