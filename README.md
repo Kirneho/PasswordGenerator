@@ -1,1 +1,4 @@
 # PasswordGenerator
+I have been (re)learning Python on and off for the last month and and wanted to mark my learning with my first public Python project now at the end of the month. 
+
+The password generator creates a password based on user input, asking for the desired number of letters, symbols, and numbers in the password. Initially, the project was intended to be a practical application of loops learned in a course module, but the research and development process led to a solution that didn’t utilize loops. Therefore, I decided to create an additional version employing loops to showcase both approaches.
